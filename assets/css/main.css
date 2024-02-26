@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*CODIGO BARRA NAVEGACION*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-weight: bold;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+ol li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color:silver;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: white;
+}
+
+.titulo {
+    color: aqua;
+    padding: 15px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+}
+
+.lista ol{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px;
+}
+
